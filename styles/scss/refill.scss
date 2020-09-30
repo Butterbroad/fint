@@ -1,0 +1,836 @@
+.refill {
+  z-index: 35;
+  background-color: #fff;
+
+  .leftText {
+    border-left: solid 2px #0a9f30;
+    height: 13vh;
+  }
+}
+
+.backgroundRefill {
+  transform: translateZ(0);
+  position: absolute;
+  left: 57%;
+  top: -14vh;
+  width: 77vh;
+  height: calc(77vh * 1.385);
+  background-image: url(../../images/refill/spriteRefill.jpg);
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  background-size: calc(77vh * 29) calc(77vh * 1.385);
+}
+
+.animBgRefill {
+  animation: animBgRefill 300ms steps(3) forwards;
+}
+
+.animBgRefill1 {
+  animation: animBgRefill1 300ms steps(3) forwards;
+}
+
+.animBgRefill2 {
+  animation: animBgRefill2 300ms steps(3) forwards;
+}
+
+.animBgRefill3 {
+  animation: animBgRefill3 300ms steps(3) forwards;
+}
+
+.animBgRefill4 {
+  animation: animBgRefill4 300ms steps(3) forwards;
+}
+
+.animBgRefill5 {
+  animation: animBgRefill5 300ms steps(3) forwards;
+}
+
+.animBgRefill6 {
+  animation: animBgRefill6 300ms steps(3) forwards;
+}
+
+.animBgRefill7 {
+  animation: animBgRefill7 300ms steps(3) forwards;
+}
+
+.animBgRefill8 {
+  animation: animBgRefill8 300ms steps(4) forwards;
+}
+
+@keyframes animBgRefill {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 10.71%;
+  }
+}
+
+@keyframes animBgRefill1 {
+  from {
+    background-position-x: 10.71%;
+  }
+  to {
+    background-position-x: 21.42%;
+  }
+}
+
+@keyframes animBgRefill2 {
+  from {
+    background-position-x: 21.42%;
+  }
+  to {
+    background-position-x: 32.14%;
+  }
+}
+
+@keyframes animBgRefill3 {
+  from {
+    background-position-x: 32.14%;
+  }
+  to {
+    background-position-x: 42.85%;
+  }
+}
+
+@keyframes animBgRefill4 {
+  from {
+    background-position-x: 42.85%;
+  }
+
+  to {
+    background-position-x: 53.56%;
+  }
+}
+
+@keyframes animBgRefill5 {
+  from {
+    background-position-x: 53.56%;
+  }
+
+  to {
+    background-position-x: 64.27%;
+  }
+}
+
+@keyframes animBgRefill6 {
+  from {
+    background-position-x: 64.27%;
+  }
+
+  to {
+    background-position-x: 74.98%;
+  }
+}
+
+@keyframes animBgRefill7 {
+  from {
+    background-position-x: 74.98%;
+  }
+
+  to {
+    background-position-x: 85.69%;
+  }
+}
+
+@keyframes animBgRefill8 {
+  from {
+    background-position-x: 85.69%;
+  }
+
+  to {
+    background-position-x: 100%;
+  }
+}
+/////////////////back
+
+.animBgRefillBack {
+  animation: animBgRefill 300ms steps(3) forwards;
+}
+
+.animBgRefill1Back {
+  animation: animBgRefill1 300ms steps(3) forwards;
+}
+
+.animBgRefill2Back {
+  animation: animBgRefill2 300ms steps(3) forwards;
+}
+
+.animBgRefill3Back {
+  animation: animBgRefill3 300ms steps(3) forwards;
+}
+
+.animBgRefill4Back {
+  animation: animBgRefill4 300ms steps(3) forwards;
+}
+
+.animBgRefill5Back {
+  animation: animBgRefill5 300ms steps(3) forwards;
+}
+
+.animBgRefill6Back {
+  animation: animBgRefill6 300ms steps(3) forwards;
+}
+
+.animBgRefill7Back {
+  animation: animBgRefill7 300ms steps(3) forwards;
+}
+
+.animBgRefill8Back {
+  animation: animBgRefill8 300ms steps(4) forwards;
+}
+
+@keyframes animBgRefillBack {
+  100% {
+    background-position-x: 0%;
+  }
+  0% {
+    background-position-x: 10.71%;
+  }
+}
+
+@keyframes animBgRefill1Back {
+  100% {
+    background-position-x: 10.71%;
+  }
+  0% {
+    background-position-x: 21.42%;
+  }
+}
+
+@keyframes animBgRefill2Back {
+  100% {
+    background-position-x: 21.42%;
+  }
+  0% {
+    background-position-x: 32.14%;
+  }
+}
+
+@keyframes animBgRefill3Back {
+  100% {
+    background-position-x: 32.14%;
+  }
+  0% {
+    background-position-x: 42.85%;
+  }
+}
+
+@keyframes animBgRefill4Back {
+  100% {
+    background-position-x: 42.85%;
+  }
+  0% {
+    background-position-x: 53.56%;
+  }
+}
+
+@keyframes animBgRefill5Back {
+  100% {
+    background-position-x: 53.56%;
+  }
+  0% {
+    background-position-x: 64.27%;
+  }
+}
+
+@keyframes animBgRefill6Back {
+  100% {
+    background-position-x: 64.27%;
+  }
+  0% {
+    background-position-x: 74.98%;
+  }
+}
+
+@keyframes animBgRefill7Back {
+  100% {
+    background-position-x: 74.98%;
+  }
+  0% {
+    background-position-x: 85.69%;
+  }
+}
+
+@keyframes animBgRefill8Back {
+  100% {
+    background-position-x: 85.69%;
+  }
+  0% {
+    background-position-x: 100%;
+  }
+}
+
+.refillTextRow2 {
+  display: none;
+}
+
+.centerRefill {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 23vh;
+  width: 85%;
+  left: 0%;
+  top: 0%;
+  z-index: 2;
+}
+
+.fourPercent {
+  transform: translateZ(0);
+  left: 0;
+  position: relative;
+  top: 0;
+  margin-bottom: 30px;
+  // width: 347px;
+  // height: 195px;
+  width: 21.7vw;
+  height: calc(21.7vw * 0.56);
+  background-image: url(../../images/refill/spriteCounter.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-size: calc(21.7vw * 9) calc(21.7vw * 0.56);
+}
+
+.animFourPercent {
+  animation: animFourPercent 200ms steps(2) forwards;
+}
+
+.animFourPercent1 {
+  animation: animFourPercent1 200ms steps(2) forwards;
+}
+
+.animFourPercent2 {
+  animation: animFourPercent2 200ms steps(2) forwards;
+}
+
+.animFourPercent3 {
+  animation: animFourPercent3 200ms steps(2) forwards;
+}
+
+.animFourPercent4 {
+  position: relative;
+  z-index: 36;
+  background-image: url(../../images/refill/counter.svg);
+  background-size: auto;
+  background-position-x: 0;
+  width: 347px;
+  height: 195px;
+  animation: animFourPercent4 600ms linear forwards;
+}
+
+.animFourPercent5 {
+  position: relative;
+  z-index: 36;
+  background-image: url(../../images/refill/counter.svg);
+  background-size: auto;
+  background-position-x: 0;
+  width: 347px;
+  height: 195px;
+  animation: animFourPercent5 600ms linear forwards;
+}
+
+.animFourPercent6 {
+  position: relative;
+  z-index: 36;
+  background-image: url(../../images/refill/counter.svg);
+  background-size: auto;
+  background-position-x: 0;
+  width: 347px;
+  height: 195px;
+  animation: animFourPercent6 600ms linear forwards;
+}
+
+.animFourPercent7 {
+  position: relative;
+  z-index: 36;
+  background-image: url(../../images/refill/counter.svg);
+  background-size: auto;
+  background-position-x: 0;
+  width: 347px;
+  height: 195px;
+  animation: animFourPercent7 600ms linear forwards;
+}
+
+.animFourPercent8 {
+  position: relative;
+  z-index: 36;
+  background-image: url(../../images/refill/counter.svg);
+  background-size: auto;
+  background-position-x: 0;
+  width: 347px;
+  height: 195px;
+  animation: animFourPercent8 600ms linear forwards;
+}
+
+@keyframes animFourPercent4 {
+  100% {
+    transform: scale(2.5);
+    left: 4%;
+    top: -10%;
+  }
+}
+
+@keyframes animFourPercent5 {
+  0% {
+    transform: scale(2.5);
+    left: 4%;
+    top: -10%;
+  }
+
+  100% {
+    transform: scale(5.5);
+    left: 8%;
+    top: -20%;
+  }
+}
+
+@keyframes animFourPercent6 {
+  0% {
+    transform: scale(5.5);
+    left: 8%;
+    top: -20%;
+  }
+  100% {
+    transform: scale(7.5);
+    left: 12%;
+    top: -30%;
+  }
+}
+
+@keyframes animFourPercent7 {
+  0% {
+    transform: scale(7.5);
+    left: 12%;
+    top: -30%;
+  }
+  100% {
+    transform: scale(10.5);
+    left: 16%;
+    top: -40%;
+  }
+}
+
+@keyframes animFourPercent8 {
+  0% {
+    transform: scale(10.5);
+    left: 16%;
+    top: -40%;
+  }
+
+  100% {
+    transform: scale(15.5);
+    left: 20%;
+    top: -54.5%;
+  }
+}
+
+// .animFourPercent {
+//   animation: animFourPercent 1600ms steps(8) 1200ms forwards,
+//     animFourPercent2 600ms steps(1) 6000ms forwards,
+//     animFourPercent3 600ms linear 6000ms forwards;
+// }
+
+// .animFourPercent {
+//   animation: animFourPercent 1600ms steps(8) 1200ms forwards,
+//     animFourPercent2 600ms steps(1) 6000ms forwards,
+//     animFourPercent3 600ms linear 6000ms forwards;
+// }
+
+// .animFourPercent {
+//   animation: animFourPercent 1600ms steps(8) 1200ms forwards,
+//     animFourPercent2 600ms steps(1) 6000ms forwards,
+//     animFourPercent3 600ms linear 6000ms forwards;
+// }
+
+@keyframes animFourPercent {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 25%;
+  }
+}
+
+@keyframes animFourPercent1 {
+  0% {
+    background-position-x: 25%;
+  }
+
+  100% {
+    background-position-x: 50%;
+  }
+}
+
+@keyframes animFourPercent2 {
+  0% {
+    background-position-x: 50%;
+  }
+
+  100% {
+    background-position-x: 75%;
+  }
+}
+
+@keyframes animFourPercent3 {
+  0% {
+    background-position-x: 75%;
+  }
+
+  100% {
+    background-position-x: 100%;
+  }
+}
+///////////////back
+
+.animFourPercentBack {
+  animation: animFourPercentBack 200ms steps(2) forwards;
+}
+
+.animFourPercent1Back {
+  animation: animFourPercent1Back 200ms steps(2) forwards;
+}
+
+.animFourPercent2Back {
+  animation: animFourPercent2Back 200ms steps(2) forwards;
+}
+
+.animFourPercent3Back {
+  animation: animFourPercent3Back 200ms steps(2) forwards;
+}
+
+.fourPercentSvg {
+  position: relative;
+  z-index: 36;
+  background-image: url(../../images/refill/counter.svg);
+  background-size: auto;
+  background-position-x: 0;
+  width: 347px;
+  height: 195px;
+}
+
+.animFourPercent4Back {
+  animation: animFourPercent4Back 600ms linear forwards;
+}
+
+.animFourPercent5Back {
+  animation: animFourPercent5Back 600ms linear forwards;
+}
+
+.animFourPercent6Back {
+  animation: animFourPercent6Back 600ms linear forwards;
+}
+
+.animFourPercent7Back {
+  animation: animFourPercent7Back 600ms linear forwards;
+}
+
+.animFourPercent8Back {
+  animation: animFourPercent8Back 600ms linear forwards;
+}
+
+@keyframes animFourPercentBack {
+  100% {
+    background-position-x: 0;
+  }
+
+  0% {
+    background-position-x: 25%;
+  }
+}
+
+@keyframes animFourPercent1Back {
+  100% {
+    background-position-x: 25%;
+  }
+
+  0% {
+    background-position-x: 50%;
+  }
+}
+
+@keyframes animFourPercent2Back {
+  100% {
+    background-position-x: 50%;
+  }
+
+  0% {
+    background-position-x: 75%;
+  }
+}
+
+@keyframes animFourPercent3Back {
+  100% {
+    background-position-x: 75%;
+  }
+
+  0% {
+    background-position-x: 100%;
+  }
+}
+
+@keyframes animFourPercent4Back {
+  0% {
+    transform: scale(2.5);
+    left: 4%;
+    top: -10%;
+  }
+  100% {
+    transform: scale(1);
+    left: 0%;
+    top: 0%;
+  }
+}
+
+@keyframes animFourPercent5Back {
+  100% {
+    transform: scale(2.5);
+    left: 4%;
+    top: -10%;
+  }
+  0% {
+    transform: scale(5.5);
+    left: 8%;
+    top: -20%;
+  }
+}
+
+@keyframes animFourPercent6Back {
+  100% {
+    transform: scale(5.5);
+    left: 8%;
+    top: -20%;
+  }
+  0% {
+    transform: scale(7.5);
+    left: 12%;
+    top: -30%;
+  }
+}
+
+@keyframes animFourPercent7Back {
+  100% {
+    transform: scale(7.5);
+    left: 12%;
+    top: -30%;
+  }
+  0% {
+    transform: scale(10.5);
+    left: 16%;
+    top: -40%;
+  }
+}
+
+@keyframes animFourPercent8Back {
+  100% {
+    transform: scale(10.5);
+    left: 16%;
+    top: -40%;
+  }
+  0% {
+    transform: scale(15.5);
+    left: 20%;
+    top: -54.5%;
+  }
+}
+
+/////////////
+
+.everyRefill {
+  position: relative;
+  margin-bottom: 47px;
+  transform: translateX(11vw);
+
+  span {
+    display: block;
+    font-family: gilroyBold;
+    font-size: 62px;
+    line-height: 52px;
+    text-transform: uppercase;
+  }
+}
+
+.everyRefill:after {
+  content: "";
+  width: 110px;
+  height: 7px;
+  background-color: #0a9f30;
+  position: absolute;
+  bottom: -19px;
+}
+
+.strip {
+  position: absolute;
+  height: 6px;
+  width: 0;
+  background-color: #0a9f30;
+  left: 39%;
+  top: -28%;
+}
+
+.animStrip {
+  animation: animStrip 300ms ease-out forwards;
+}
+
+.animStrip2 {
+  animation: animStrip2 100ms ease-out forwards;
+}
+
+@keyframes animStrip {
+  100% {
+    width: 181px;
+  }
+}
+
+@keyframes animStrip2 {
+  100% {
+    width: 181px;
+    opacity: 0;
+    left: 13%;
+  }
+}
+
+
+
+.background02 {
+  position: absolute;
+  font-family: gilroyMedium;
+  font-size: 221px;
+  line-height: 185px;
+  color: #ededed;
+  left: 15.5%;
+  top: -120%;
+  z-index: -1;
+
+  div {
+    background-color: #fff;
+    width: 55%;
+    height: 47%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.refill .leftContent {
+  border-left: solid 2px #ededed;
+}
+
+.animBg02 {
+  animation: animBg01 300ms ease-out forwards;
+}
+
+.animEveryRefill {
+  animation: animEveryRefill 300ms linear forwards;
+
+  // animEveryRefill2 100ms ease-out 3400ms forwards;
+}
+
+@keyframes animEveryRefill {
+  100% {
+    transform: translateX(0);
+  }
+}
+
+// @keyframes animEveryRefill2 {
+//   100% {
+//     transform: matrix(0.79, 0, 0, 0.79, 49, 32);
+//   }
+// }
+
+.refillText {
+  position: relative;
+  transform: translateY(70vh);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+
+  div {
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    overflow: hidden;
+    margin-bottom: 11px;
+    color: #1d1d1f;
+  }
+}
+
+.animRefillText {
+  animation: animRefillText 600ms ease-out forwards;
+}
+
+.animRefillTextBg {
+  animation: animRefillTextBg 1300ms ease-out forwards;
+}
+
+@keyframes animRefillText {
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes animRefillTextBg {
+  100% {
+    transform: translateX(110%);
+  }
+}
+
+.animCenterRefill {
+  animation: animCenterRefill 600ms ease-out forwards;
+}
+
+.animCenterRefill1 {
+  animation: animCenterRefill1 600ms ease-out forwards;
+}
+
+// .animCenterRefill {
+//   animation: animCenterRefill 600ms ease-out 800ms forwards,
+//     animCenterRefill2 100ms ease-out 3400ms forwards,
+//     animCenterRefill3 600ms ease-out 5400ms forwards;
+// }
+
+@keyframes animCenterRefill {
+  100% {
+    padding-top: 12vh;
+  }
+}
+
+@keyframes animCenterRefill1 {
+  100% {
+    transform: scale(2.15);
+    left: 41%;
+    top: 33%;
+  }
+}
+
+////////////back
+
+.animCenterRefillBack {
+  animation: animCenterRefillBack 600ms ease-out forwards;
+}
+
+.animCenterRefill1Back {
+  animation: animCenterRefill1Back 600ms ease-out forwards;
+}
+
+@keyframes animCenterRefillBack {
+  100% {
+    padding-top: 12vh;
+  }
+}
+
+@keyframes animCenterRefill1Back {
+  0% {
+    transform: scale(2.15);
+    left: 41%;
+    top: 33%;
+  }
+
+  100% {
+    transform: scale(1);
+    left: 0;
+    top: 0;
+  }
+}

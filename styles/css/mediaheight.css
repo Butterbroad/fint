@@ -1,0 +1,329 @@
+@media all and (max-height: 800px) {
+  .refill {
+    background-size: auto 100%;
+  }
+}
+@media all and (max-height: 700px) and (max-width: 1024px) {
+  body .bonuses {
+    background-size: 100%;
+  }
+}
+@media all and (max-height: 700px) {
+  .getBonus {
+    background-size: contain;
+  }
+
+  @-webkit-keyframes animTextBonuse {
+    100% {
+      transform: matrix(0.65, 0, 0, 0.65, -70, -60);
+    }
+  }
+  @keyframes animTextBonuse {
+    100% {
+      transform: matrix(0.65, 0, 0, 0.65, -70, -60);
+    }
+  }
+
+  .fourPercent {
+    margin-bottom: 20px;
+  }
+
+  .forecast {
+    background-size: contain;
+  }
+
+  .forcastTextTop span:first-child {
+    font-size: 67px;
+    line-height: 56px;
+  }
+
+  .forcastTextTop span:nth-child(2) {
+    font-size: 50px;
+    line-height: 42px;
+    margin-top: 18px;
+  }
+
+  .forcastTextTop span:nth-child(3) {
+    font-size: 50px;
+    line-height: 42px;
+    margin-top: 8px;
+  }
+
+  .background04 {
+    font-size: 239px;
+    height: 170px;
+    margin-bottom: 14px;
+  }
+
+  .centerContentDots {
+    left: 460px;
+  }
+}
+@media all and (max-height: 600px) {
+  body .bonuses .mainSection {
+    justify-content: center;
+    margin-top: 11.5vh;
+  }
+
+  body .bonuses {
+    background: #000;
+  }
+
+  .getBonus .registrationBonus span {
+    font-size: 70px;
+    line-height: 60px;
+  }
+
+  .registrationText {
+    margin-top: 45px;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .mousePath {
+    display: none;
+  }
+
+  .getBonus .muoseFooter {
+    transform: scale(0.8);
+    bottom: 3vh;
+  }
+
+  .fourPercent img {
+    width: 47%;
+  }
+}
+@media all and (max-height: 550px) and (min-width: 500px) {
+  body .getBonus .centerContent {
+    transform: translate(0vw, 30vh);
+  }
+}
+@media all and (max-height: 550px) {
+  .forcastTextTop span:first-child {
+    font-size: 58px;
+    line-height: 49px;
+  }
+
+  .forcastTextTop span:nth-child(2) {
+    font-size: 44px;
+    line-height: 36px;
+    margin-top: 15px;
+  }
+
+  .forcastTextTop span:nth-child(3) {
+    font-size: 44px;
+    line-height: 36px;
+  }
+
+  .forecast .background04 {
+    font-size: 208px;
+    height: 146px;
+  }
+
+  .return .returnText {
+    margin-top: 2vh;
+  }
+
+  .centerContentDots {
+    height: 200px;
+    transform: translateY(-10%);
+  }
+}
+@media all and (max-height: 450px) {
+  body .getBonus .animBonuse {
+    -webkit-animation: animTextBonuse 300ms ease-out 1400ms forwards;
+    animation: animTextBonuseMobile 300ms ease-out 1400ms forwards;
+  }
+
+  @-webkit-keyframes animTextBonuseMobile {
+    100% {
+      transform: matrix(0.65, 0, 0, 0.65, -50, -55);
+      padding-top: 0;
+    }
+  }
+  @keyframes animTextBonuseMobile {
+    100% {
+      transform: matrix(0.65, 0, 0, 0.65, -50, -55);
+      padding-top: 0;
+    }
+  }
+  body .bonuses .mainSection {
+    margin-top: 0vh;
+  }
+
+  body .bonuses .mainContent {
+    padding-bottom: 25vh;
+  }
+
+  body .bonuses .secondRow svg {
+    transform: translateY(17vh) translateX(calc(50% + 8px)) scale(1.3);
+  }
+
+  .muoseFooter {
+    bottom: -1vh;
+  }
+
+  body .bonuses .mainContent .bottomText {
+    min-height: 120px;
+  }
+
+  body .return .returnText {
+    font-size: 39px;
+    line-height: 32px;
+  }
+
+  .animreturnDots1 {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  .animreturnDots2 {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  .returnTextWord3 {
+    -webkit-text-stroke: 1.2px #ffffff;
+  }
+
+  .centerReturn {
+    transform: translate(0, -7vh);
+  }
+
+  .returnTextExplain {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .returnTextMaxline {
+    margin-bottom: 6px;
+  }
+
+  body .getBonus .registrationText div {
+    margin-bottom: 10px;
+  }
+
+  .getBonus .registrationText {
+    margin-top: 30px;
+  }
+
+  body .getBonus .centerContent .registrationBonus span {
+    font-size: 44px;
+    line-height: 36px;
+  }
+
+  @-webkit-keyframes animCenterForecast {
+    100% {
+      transform: translateY(-13%);
+    }
+  }
+  @keyframes animCenterForecast {
+    100% {
+      transform: translateY(-13%);
+    }
+  }
+  .forecast .forcastTextTop span:first-child {
+    font-size: 50px;
+    line-height: 49px;
+  }
+  .forecast .forcastTextTop span:nth-child(2) {
+    font-size: 38px;
+    line-height: 36px;
+    margin-top: 15px;
+  }
+  .forecast .forcastTextTop span:nth-child(3) {
+    font-size: 38px;
+    line-height: 36px;
+  }
+  .forecast .background04 {
+    display: none;
+  }
+  .forecast .forcastTextBottom {
+    margin-top: 18px;
+  }
+  .forecast .forcastTextTop span:nth-child(2) {
+    margin-top: 6px;
+  }
+  .forecast .forcastTextTop {
+    margin-top: 10px;
+  }
+
+  .bonuses .topText {
+    margin-top: 4.5vh;
+  }
+
+  body .bonuses .leftWord {
+    margin-bottom: 3vh;
+  }
+
+  body .bonuses .rightWord {
+    margin-bottom: 3vh;
+  }
+
+  .everyRefill {
+    margin-bottom: 6vh;
+  }
+
+  body .centerRefill {
+    padding-top: 8.5vh;
+  }
+
+  .fourPercent img {
+    display: none;
+  }
+
+  body .getBonus {
+    background-position-x: 100%;
+  }
+
+  .centerContentDots {
+    transform: translateY(-30%);
+    width: 38px;
+    height: 170px;
+  }
+}
+@media all and (max-height: 350px) {
+  body .getBonus .registrationText div {
+    margin-bottom: 0px;
+  }
+
+  .everyRefill {
+    margin-bottom: 3vh;
+  }
+
+  .refillText {
+    font-size: 16px;
+  }
+
+  .returnTextExplain {
+    line-height: 14px;
+  }
+
+  .return .returnTextMaxline {
+    margin-bottom: 5px;
+  }
+
+  .return .returnText {
+    margin-top: 0vh;
+  }
+
+  .forcastTextBottom div {
+    margin-bottom: 0px;
+  }
+
+  .forecast .forcastTextTop span:nth-child(2) {
+    margin-top: 0px;
+  }
+
+  .forecast .forcastTextTop span:nth-child(3) {
+    margin-top: 0px;
+  }
+
+  .forecast .forcastTextBottom {
+    margin-top: 6px;
+  }
+}
+
+/*# sourceMappingURL=mediaheight.css.map */

@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.conditions {
+  background-color: #ededed;
+  z-index: 55; }
+  .conditions .leftText {
+    border-left: solid 2px #0a9f30;
+    height: 13vh;
+    color: #cfcfcf; }
+  .conditions .leftContent {
+    border-left: solid 2px #cfcfcf;
+    position: fixed; }
+  .conditions .main {
+    margin-top: 157px;
+    width: 90.3%;
+    height: auto; }
+  .conditions .wrappScroll {
+    overflow-y: scroll;
+    scrollbar-width: none; }
+  .conditions .wrappScroll::-webkit-scrollbar {
+    width: 0px; }
+
+a {
+  text-decoration: none;
+  color: #0a9f30; }
+
+h3 {
+  font-family: gilroyBlack;
+  font-size: 72px;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 30%;
+  margin-bottom: 10vh; }
+
+.centerConditions {
+  display: flex;
+  flex-direction: column;
+  padding-left: 14vw;
+  width: 61%; }
+
+.subconditions {
+  display: flex;
+  margin-bottom: 95px; }
+
+.conditionText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #1d1d1f;
+  margin-left: 18px;
+  padding: 20px;
+  box-sizing: border-box; }
+  .conditionText span {
+    display: block;
+    margin-top: 20px; }
+  .conditionText p:first-child {
+    font-weight: bold; }
+
+.conditionName {
+  min-width: 30%; }
+  .conditionName .fontSize144 {
+    font-family: gilroyMedium;
+    font-size: 144px;
+    line-height: 120px;
+    text-align: right;
+    color: #dadada; }
+  .conditionName .fontSize72 {
+    font-family: gilroyBold;
+    font-size: 72px;
+    line-height: 72px;
+    text-transform: uppercase;
+    text-align: right; }
+  .conditionName .fontSize36 {
+    font-family: gilroyBold;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: right; }
+
+.green {
+  color: #0a9f30; }
+
+.black {
+  color: #000; }
+
+.footerСonditions {
+  text-align: center;
+  font-family: gilroyBlack;
+  font-size: 96px;
+  line-height: 80px;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 70px; }
+  .footerСonditions .row1 span:last-child {
+    -webkit-text-stroke: 2px #000; }
+  .footerСonditions .row2 {
+    font-size: 72px;
+    line-height: 60px;
+    color: #0a9f30; }
+
+.conditionTextListName {
+  display: none;
+  text-transform: uppercase; }
+
+.conditions .openText {
+  display: block; }
+
+.conditions .hideText {
+  display: none; }
+
+.conditions .headerMenu {
+  top: 35%; }
+
+/*# sourceMappingURL=conditions.css.map */

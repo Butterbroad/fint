@@ -1,0 +1,516 @@
+.getBonus {
+  z-index: 25;
+  background-color: #fff; }
+  .getBonus .leftText {
+    border-left: solid 2px #0a9f30;
+    height: 13vh; }
+  .getBonus .leftContent {
+    border-left: solid 2px #ededed; }
+
+.backgroundGetBonus {
+  position: absolute;
+  left: 57%;
+  top: -14vh;
+  width: 77vh;
+  height: calc(77vh * 1.385);
+  background-image: url(../../images/spriteGetBonus/spriteGetBonuse.jpg);
+  background-position-x: 0;
+  background-repeat: no-repeat;
+  background-size: calc(77vh * 22) calc(77vh * 1.385); }
+
+.animBgGetBonus {
+  transform: translateZ(0);
+  animation: animBgGetBonus 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus {
+  from {
+    background-position-x: 0; }
+  to {
+    background-position-x: 14.28%; } }
+.animBgGetBonusBack {
+  transform: translateZ(0);
+  animation: animBgGetBonusBack 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonusBack {
+  from {
+    background-position-x: 14.28%; }
+  to {
+    background-position-x: 0; } }
+.animBgGetBonus1 {
+  transform: translateZ(0);
+  animation: animBgGetBonus1 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus1 {
+  from {
+    background-position-x: 14.28%; }
+  to {
+    background-position-x: 28.56%; } }
+.animBgGetBonus1Back {
+  transform: translateZ(0);
+  animation: animBgGetBonus1Back 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus1Back {
+  from {
+    background-position-x: 28.56%; }
+  to {
+    background-position-x: 14.28%; } }
+.animBgGetBonus2 {
+  transform: translateZ(0);
+  animation: animBgGetBonus2 300ms steps(3) 0ms forwards; }
+
+@keyframes animBgGetBonus2 {
+  from {
+    background-position-x: 28.56%; }
+  to {
+    background-position-x: 42.84%; } }
+.animBgGetBonus2Back {
+  transform: translateZ(0);
+  animation: animBgGetBonus2Back 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus2Back {
+  from {
+    background-position-x: 42.84%; }
+  to {
+    background-position-x: 28.56%; } }
+.animBgGetBonus3 {
+  transform: translateZ(0);
+  animation: animBgGetBonus3 300ms steps(3) 0ms forwards; }
+
+@keyframes animBgGetBonus3 {
+  from {
+    background-position-x: 42.84%; }
+  to {
+    background-position-x: 57.12%; } }
+.animBgGetBonus3Back {
+  transform: translateZ(0);
+  animation: animBgGetBonus3Back 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus3Back {
+  from {
+    background-position-x: 57.12%; }
+  to {
+    background-position-x: 42.84%; } }
+.animBgGetBonus4 {
+  transform: translateZ(0);
+  animation: animBgGetBonus4 300ms steps(3) 0ms forwards; }
+
+@keyframes animBgGetBonus4 {
+  from {
+    background-position-x: 57.12%; }
+  to {
+    background-position-x: 71.4%; } }
+.animBgGetBonus4Back {
+  transform: translateZ(0);
+  animation: animBgGetBonus4Back 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus4Back {
+  from {
+    background-position-x: 71.4%; }
+  to {
+    background-position-x: 57.12%; } }
+.animBgGetBonus5 {
+  transform: translateZ(0);
+  animation: animBgGetBonus5 300ms steps(3) 0ms forwards; }
+
+@keyframes animBgGetBonus5 {
+  from {
+    background-position-x: 71.4%; }
+  to {
+    background-position-x: 85.68%; } }
+.animBgGetBonus5Back {
+  transform: translateZ(0);
+  animation: animBgGetBonus5Back 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus5Back {
+  from {
+    background-position-x: 85.68%; }
+  to {
+    background-position-x: 71.4%; } }
+.animBgGetBonus6 {
+  transform: translateZ(0);
+  animation: animBgGetBonus6 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus6 {
+  from {
+    background-position-x: 85.68%; }
+  to {
+    background-position-x: 100%; } }
+.animBgGetBonus6Back {
+  transform: translateZ(0);
+  animation: animBgGetBonus6Back 300ms steps(3) forwards; }
+
+@keyframes animBgGetBonus6Back {
+  from {
+    background-position-x: 100%; }
+  to {
+    background-position-x: 85.68%; } }
+.muoseFooter {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 84px); }
+
+.leftContent .activLeftText {
+  opacity: 1;
+  color: #ededed; }
+
+.centerContent {
+  position: relative;
+  transform: translateY(111vh);
+  margin-left: 2%; }
+
+.background01 {
+  position: absolute;
+  font-family: gilroyMedium;
+  font-size: 343px;
+  line-height: 287px;
+  color: #ededed;
+  overflow: hidden;
+  margin-bottom: 18px;
+  left: 48.5%;
+  top: -120px; }
+
+.background01::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 65%;
+  height: 46%;
+  background-color: #fff; }
+
+.registrationBonus {
+  position: relative;
+  margin-bottom: 14px; }
+  .registrationBonus span {
+    display: block;
+    font-family: gilroyBold;
+    font-size: 96px;
+    line-height: 80px;
+    text-transform: uppercase; }
+  .registrationBonus span {
+    color: #000; }
+  .registrationBonus span:first-child {
+    color: #0a9f30; }
+
+.registrationBonus:after {
+  content: "";
+  width: 25%;
+  height: 9px;
+  background-color: #0a9f30;
+  position: absolute;
+  bottom: -26px; }
+
+.main {
+  display: flex;
+  position: relative;
+  height: 100%; }
+
+.visibility {
+  -webkit-animation: visibility 600ms ease-out forwards;
+  animation: visibility 600ms ease-out forwards; }
+
+.unvisibility {
+  -webkit-animation: unvisibility 600ms ease-out forwards;
+  animation: unvisibility 600ms ease-out forwards; }
+
+@keyframes visibility {
+  100% {
+    transform: translateY(-100vh);
+    transform: translateY(calc(var(--vh) * -100)); } }
+@keyframes unvisibility {
+  0% {
+    transform: translateY(-100vh); }
+  100% {
+    transform: translateY(0vh); } }
+.animBonuse {
+  animation: animBonuse 1000ms ease-out 1ms forwards; }
+
+.animBonuseBack {
+  animation: animBonuseBack 1000ms ease-out 1ms forwards; }
+
+.animBonuse1 {
+  animation: animBonuse1 600ms ease-out 1ms forwards; }
+
+.animBonuse1Back {
+  animation: animBonuse1Back 600ms ease-out 1ms forwards; }
+
+@keyframes animBonuse {
+  100% {
+    transform: translateY(33.5vh); } }
+@keyframes animBonuseBack {
+  0% {
+    transform: translateY(33.5vh); }
+  100% {
+    transform: translateY(111vh); } }
+@keyframes animBonuse1 {
+  0% {
+    transform: translateY(33.5vh); }
+  100% {
+    transform: matrix(0.64, 0, 0, 0.64, -152, 0); } }
+@keyframes animBonuse1Back {
+  0% {
+    transform: matrix(0.64, 0, 0, 0.64, -152, 0); }
+  100% {
+    transform: translateY(33.5vh); } }
+.rightContent {
+  position: absolute;
+  left: 58.7%; }
+  .rightContent span {
+    display: block;
+    color: #000; }
+  .rightContent span:first-child {
+    font-family: gilroyExtraBoldItalic;
+    font-size: 20px;
+    margin-bottom: 8px; }
+  .rightContent span:nth-child(2) {
+    font-family: gilroyRegularItalic;
+    font-size: 18px;
+    line-height: 15px; }
+
+.rightContentText {
+  opacity: 0; }
+
+.animrightContentText {
+  animation: animrightContentText2 1000ms linear 100ms forwards; }
+
+@keyframes animrightContentText2 {
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.rectangle {
+  font-family: gilroyBlack;
+  font-size: 72px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 106px;
+  height: 259px;
+  background-color: #0a9f30;
+  transform: translate(-100vw, 16vh);
+  padding-left: 35px;
+  overflow: hidden; }
+  .rectangle .rectText {
+    transform: translateX(150%);
+    line-height: 100%; }
+
+.animRectText {
+  animation: animRectText 600ms ease-out forwards; }
+
+.animRectText2 {
+  animation: animRectText2 600ms ease-out forwards; }
+
+@keyframes animRectText {
+  100% {
+    transform: translateX(0); } }
+@keyframes animRectText2 {
+  100% {
+    transform: translateY(60px); } }
+.animRect {
+  animation: animRect 1000ms ease-out forwards; }
+
+.animRectBack {
+  animation: animRectBack 1000ms ease-out forwards; }
+
+.animRect2 {
+  animation: animRect2 600ms ease-out forwards; }
+
+.animRect2Back {
+  animation: animRect2Back 600ms ease-out forwards; }
+
+.animRect3 {
+  animation: animRect3 600ms ease-out forwards; }
+
+.animRect3Back {
+  animation: animRect3Back 600ms ease-out forwards; }
+
+.animRect4 {
+  animation: animRect4 600ms ease-out forwards; }
+
+.animRect4Back {
+  animation: animRect4Back 600ms ease-out forwards; }
+
+@keyframes animRect {
+  100% {
+    transform: translate(2.5vw, 16vh); } }
+@keyframes animRectBack {
+  0% {
+    transform: translate(2.5vw, 16vh); }
+  100% {
+    transform: translate(-100vw, 16vh); } }
+@keyframes animRect2 {
+  0% {
+    transform: translate(2.5vw, 16vh); }
+  100% {
+    width: 55vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); } }
+@keyframes animRect2Back {
+  0% {
+    width: 55vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); }
+  100% {
+    transform: translate(2.5vw, 16vh); } }
+@keyframes animRect3 {
+  0% {
+    width: 55vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); }
+  100% {
+    width: 41vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); } }
+@keyframes animRect3Back {
+  0% {
+    width: 41vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); }
+  100% {
+    width: 55vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); } }
+@keyframes animRect4 {
+  0% {
+    width: 41vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); }
+  100% {
+    width: 41vw;
+    height: 100vh;
+    transform: translate(-46.5vw, 18vh); } }
+@keyframes animRect4Back {
+  100% {
+    width: 41vw;
+    height: 147px;
+    transform: translate(-46.5vw, 18vh); }
+  0% {
+    width: 41vw;
+    height: 100vh;
+    transform: translate(-46.5vw, 18vh); } }
+.rect02 {
+  position: absolute;
+  font-family: gilroyMedium;
+  font-size: 398px;
+  line-height: 332px;
+  color: #ededed;
+  transform: translateZ(0);
+  left: 12%;
+  bottom: -1%;
+  opacity: 0; }
+
+.rectangleArrow {
+  position: absolute;
+  top: 50%;
+  left: -10%; }
+
+.animRect02 {
+  animation: animRect02 600ms ease-out forwards; }
+
+@keyframes animRect02 {
+  10% {
+    opacity: 1; }
+  100% {
+    bottom: 19%;
+    opacity: 1; } }
+.animBg01 {
+  animation: animBg01 600ms ease-out forwards; }
+
+@keyframes animBg01 {
+  100% {
+    opacity: 0; } }
+.registrationText {
+  position: absolute;
+  margin-top: 114px;
+  transform: translateY(135%);
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.08px; }
+  .registrationText div {
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    overflow: hidden;
+    margin-bottom: 30px;
+    color: #1d1d1f; }
+  .registrationText div:nth-child(3) {
+    margin-bottom: 0px; }
+  .registrationText a {
+    text-decoration: none;
+    color: #0a9f30; }
+
+.tick {
+  display: inline-block;
+  background: url(../../images/registrCheck.png) no-repeat center;
+  width: 27px;
+  height: 27px;
+  margin-left: 10px;
+  background-size: contain; }
+
+.textBg {
+  position: absolute;
+  background-color: #ededed;
+  color: rgba(0, 0, 0, 0);
+  padding-right: 40px; }
+  .textBg a {
+    color: rgba(0, 0, 0, 0); }
+
+.textStyle:nth-child(3)::after {
+  top: 0px; }
+
+.animRegistrText {
+  animation: animRegistrText1 600ms ease-out forwards; }
+
+.animRegistTextBg {
+  animation: animRegistrText3 1300ms ease-out forwards; }
+
+.animRegistTextBgBack {
+  animation: animRegistrText3Back 1300ms ease-out forwards; }
+
+@keyframes animRegistrText3Back {
+  0% {
+    transform: translateX(110%); }
+  100% {
+    transform: translateX(0%); } }
+.animRegistTextRow {
+  animation: animRegistrText2 1300ms ease-out 5000ms forwards; }
+
+@keyframes animRegistrText1 {
+  100% {
+    transform: translateY(0px); } }
+@keyframes animRegistrText2 {
+  100% {
+    width: 100%; } }
+@keyframes animRegistrText3 {
+  100% {
+    transform: translateX(110%); } }
+.forMobile {
+  display: none; }
+
+.getBonus .forMobileResize {
+  height: 0px; }
+
+.centerContentDots {
+  display: none;
+  position: absolute;
+  width: 43px;
+  height: 243px;
+  background-image: url(../../images/dotsGetBonus.png);
+  background-size: cover;
+  left: 475px;
+  top: 29%; }
+
+.animCenterContentDots {
+  -webkit-animation: animCenterContentDots 300ms ease-out 2900ms forwards;
+  animation: animCenterContentDots 300ms ease-out 2900ms forwards; }
+
+@-webkit-keyframes animCenterContentDots {
+  100% {
+    transform: translateY(-26vh); } }
+@keyframes animCenterContentDots {
+  100% {
+    transform: translateY(-26vh); } }
+
+/*# sourceMappingURL=getBonus.css.map */
